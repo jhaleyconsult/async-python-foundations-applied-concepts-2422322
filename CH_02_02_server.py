@@ -2,7 +2,7 @@ import asyncio
 import websockets
 import click
 from contextlib import suppress
-
+#this code allows us to subscribe to multiple websocket end points at once 
 
 async def blastoff(websocket):
     click.secho(">>  begin blastoff")
