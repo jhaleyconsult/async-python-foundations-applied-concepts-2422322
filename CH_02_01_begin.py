@@ -2,7 +2,7 @@ from datetime import datetime
 from pprint import pprint
 
 import click
-import requests
+import requests 
 
 urls = [
     "http://httpbin.org/get?text=python",
